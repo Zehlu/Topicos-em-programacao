@@ -6,9 +6,7 @@ defmodule JogoPedraPapelTesoura do
     escolha_computador = Enum.random(opcoes)
 
     IO.puts("Escolha: pedra, papel ou tesoura")
-    
-    #escolha_jogador = String.downcase(IO.gets(">> ")) |> String.trim()
-    
+        
     escolha_jogador = "pedra"
     
 
